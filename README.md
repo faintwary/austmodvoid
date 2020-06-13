@@ -4,5 +4,5 @@ This mod is the core for all AustMods. AustMods are mods designed solely by Aust
 
 ## Items
 ### Tools
- - Austrone Sword
-Deals 40 attack damage (20 hearts).
+ - Austrone Sword: <br>
+   Deals 40 attack damage (20 hearts).
