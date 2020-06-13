@@ -27,7 +27,7 @@ public class TemplateMod
     {
         logger = event.getModLog();
         
-        myToolMaterial = EnumHelper.addToolMaterial("austrone", 4, 2007, 12.0F, 30.0F, 30);
+        myToolMaterial = EnumHelper.addToolMaterial("austrone", 4, 2007, 12.0F, 40.0F, 30);
         
         mySword = new CustomSword(myToolMaterial);
     }
