@@ -6,3 +6,12 @@ This mod is the core for all AustMods. AustMods are mods designed solely by Aust
 ### Tools
  - Austrone Sword: <br>
    Deals 120 attack damage (60 hearts).
+   
+### Materials
+ - Austrone: <br>
+   Not found naturally. Must be crafted. <br>
+   Used to make Austrone Sword.
+   
+ - Void Resin: <br>
+   Crafted from obsidian, ender pearls, and gunpowder. <br> 
+   Used to make Austrone.
