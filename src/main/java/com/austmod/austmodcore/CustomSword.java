@@ -1,16 +1,16 @@
-package com.austmod.templatemod;
+package com.austmod.austmodcore;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSword;
 
 public class CustomSword extends ItemSword {
 
-	public CustomSword(ToolMaterial material) {
+	public CustomSword(ToolMaterial material, String name) {
 		super(material);
 		// TODO Auto-generated constructor stub
-		this.setRegistryName("my_sword");
-		this.setUnlocalizedName("my_sword");
-		this.setCreativeTab(CreativeTabs.COMBAT);
+		this.setRegistryName(name);
+		this.setUnlocalizedName(name);
+		this.setCreativeTab(CreativeTabs.TOOLS);
 	}
 
 }

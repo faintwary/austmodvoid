@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": 
+    [
+        "EEE",
+        "EGE",
+        "EEE"
+    ],
+    
+    "key": 
+    {   
+        "E": 
+        {
+            "item": "austmodcore:void_resin"
+        },
+        
+        "G": 
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    
+    "result": 
+    {
+    	"item": "austmodcore:austrone_ingot",
+    	"count": 1
+    }
+}			

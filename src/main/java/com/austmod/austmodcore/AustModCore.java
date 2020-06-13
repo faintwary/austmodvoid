@@ -1,4 +1,4 @@
-package com.austmod.templatemod;
+package com.austmod.austmodcore;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
@@ -10,26 +10,32 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = TemplateMod.MODID, name = TemplateMod.NAME, version = TemplateMod.VERSION)
-public class TemplateMod
+@Mod(modid = AustModCore.MODID, name = AustModCore.NAME, version = AustModCore.VERSION)
+public class AustModCore
 {
     public static final String MODID = "austmodcore";
     public static final String NAME = "AustMod Core";
-    public static final String VERSION = "0.0.1";
+    public static final String VERSION = "0.1.0";
 
     public static Logger logger;
     
-    public static ToolMaterial myToolMaterial;
-    public static Item mySword;
+    public static ToolMaterial austrone;
+    public static Item austroneSword;
+    public static Item voidResin;
+    public static Item austroneIngot;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         logger = event.getModLog();
         
-        myToolMaterial = EnumHelper.addToolMaterial("austrone", 4, 2007, 12.0F, 40.0F, 30);
+        austrone = EnumHelper.addToolMaterial("austrone", 4, 2007, 12.0F, 116.0F, 30);
         
-        mySword = new CustomSword(myToolMaterial);
+        austroneSword = new CustomSword(austrone, "austrone_sword");
+        
+        voidResin = new CustomMaterial("void_resin");
+        
+        austroneIngot = new CustomMaterial("austrone_ingot");
     }
 
     @EventHandler

@@ -1,4 +1,4 @@
-package com.austmod.templatemod;
+package com.austmod.austmodcore;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -13,7 +13,9 @@ public class CommonProxy {
 
 	@SubscribeEvent
 	public static void registerRenders(ModelRegistryEvent event) {
-		registerRender(TemplateMod.mySword);
+		registerRender(AustModCore.austroneSword);
+		registerRender(AustModCore.voidResin);
+		registerRender(AustModCore.austroneIngot);
 	}
 	
 	private static void registerRender(Item item) {
@@ -22,6 +24,8 @@ public class CommonProxy {
 	
 	@SubscribeEvent
 	public static void registerItems(RegistryEvent.Register<Item> event) {
-		event.getRegistry().registerAll(TemplateMod.mySword);
+		event.getRegistry().registerAll(AustModCore.austroneSword);
+		event.getRegistry().registerAll(AustModCore.voidResin);
+		event.getRegistry().registerAll(AustModCore.austroneIngot);
 	}
 }
