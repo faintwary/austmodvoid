@@ -15,6 +15,7 @@ public class CommonProxy {
 	public static void registerRenders(ModelRegistryEvent event) {
 		registerRender(AustModCore.austroneSword);
 		registerRender(AustModCore.voidResin);
+		registerRender(AustModCore.austroneIngot);
 	}
 	
 	private static void registerRender(Item item) {
@@ -25,5 +26,6 @@ public class CommonProxy {
 	public static void registerItems(RegistryEvent.Register<Item> event) {
 		event.getRegistry().registerAll(AustModCore.austroneSword);
 		event.getRegistry().registerAll(AustModCore.voidResin);
+		event.getRegistry().registerAll(AustModCore.austroneIngot);
 	}
 }

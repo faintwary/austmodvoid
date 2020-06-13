@@ -10,6 +10,6 @@ public class CustomMaterial extends Item {
 		// TODO Auto-generated constructor stub
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);
-		this.setCreativeTab(CreativeTabs.COMBAT);
+		this.setCreativeTab(CreativeTabs.MISC);
 	}
 }

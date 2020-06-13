@@ -22,17 +22,20 @@ public class AustModCore
     public static ToolMaterial austrone;
     public static Item austroneSword;
     public static Item voidResin;
+    public static Item austroneIngot;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         logger = event.getModLog();
         
-        austrone = EnumHelper.addToolMaterial("austrone", 4, 2007, 12.0F, 40.0F, 30);
+        austrone = EnumHelper.addToolMaterial("austrone", 4, 2007, 12.0F, 116.0F, 30);
         
         austroneSword = new CustomSword(austrone, "austrone_sword");
         
         voidResin = new CustomMaterial("void_resin");
+        
+        austroneIngot = new CustomMaterial("austrone_ingot");
     }
 
     @EventHandler
