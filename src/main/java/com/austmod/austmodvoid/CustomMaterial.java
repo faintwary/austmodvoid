@@ -1,4 +1,4 @@
-package com.austmod.austmodcore;
+package com.austmod.austmodvoid;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

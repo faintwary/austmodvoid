@@ -12,7 +12,7 @@
     {   
         "E": 
         {
-            "item": "austmodcore:void_resin"
+            "item": "austmodvoid:void_resin"
         },
         
         "G": 
@@ -23,7 +23,7 @@
     
     "result": 
     {
-    	"item": "austmodcore:austrone_ingot",
+    	"item": "austmodvoid:austrone_ingot",
     	"count": 1
     }
 }			

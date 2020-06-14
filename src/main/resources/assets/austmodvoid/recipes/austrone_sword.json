@@ -12,7 +12,7 @@
     {   
         "A": 
         {
-            "item": "austmodcore:austrone_ingot"
+            "item": "austmodvoid:austrone_ingot"
         },
         
         "Q": 
@@ -28,7 +28,7 @@
     
     "result": 
     {
-    	"item": "austmodcore:austrone_sword",
+    	"item": "austmodvoid:austrone_sword",
     	"count": 1
     }
 }			
