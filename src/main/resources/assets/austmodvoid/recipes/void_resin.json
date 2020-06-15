@@ -1,30 +1,16 @@
 {
-    "type": "minecraft:crafting_shaped",
-    
-    "pattern": 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients":
     [
-        "#E#",
-        "EGE",
-        "#E#"
-    ],
-    
-    "key": 
-    {
-        "#": 
         {
-            "item": "minecraft:obsidian"
+            "item": "austmodvoid:void_essence"
         },
-        
-        "E": 
-        {
-            "item": "minecraft:ender_pearl"
-        },
-        
-        "G": 
+
         {
             "item": "minecraft:gunpowder"
         }
-    },
+    ],
     
     "result": 
     {

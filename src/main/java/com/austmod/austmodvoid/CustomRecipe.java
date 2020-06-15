@@ -11,14 +11,15 @@ public class CustomRecipe {
 		Furnace
 	}
 	
-	public CustomRecipe(RecipeType type, Item input, Item output, int count, float experienceOut) {
-		
-		if (type == RecipeType.Furnace) {
+	public CustomRecipe(RecipeType type, Item input, Item output, int count, float experienceOut)
+	{
+		if (type == RecipeType.Furnace)
 			GameRegistry.addSmelting(input, new ItemStack(output, count), experienceOut);
-		}
 	}
 	
-	public CustomRecipe(RecipeType type, Block input, Item output, int count, float experienceOut) {
-
+	public CustomRecipe(RecipeType type, Block input, Item output, int count, float experienceOut)
+	{
+		if (type == RecipeType.Furnace)
+			GameRegistry.addSmelting(input, new ItemStack(output, count), experienceOut);
 	}
 }

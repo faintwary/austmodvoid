@@ -26,6 +26,7 @@ public class Main
     public static Item austroneSword;
     public static Item voidResin;
     public static Item austroneIngot;
+    public static Item voidEssence;
     public static Block voidOre;
 
     @EventHandler
@@ -33,7 +34,7 @@ public class Main
     {
         logger = event.getModLog();
 
-        austrone = EnumHelper.addToolMaterial("austrone", 4, 2007, 12.0F, 116.0F, 30);
+        austrone = EnumHelper.addToolMaterial("austrone", 4, 2007, 12.0F, 66.0F, 30);
 
         austroneSword = new CustomSword(austrone, "austrone_sword");
 
@@ -47,6 +48,8 @@ public class Main
 
         voidOre.setHardness(55.0f);
 
+        voidEssence = new CustomMaterial("void_essence");
+
         GameRegistry.registerWorldGenerator(new OreGeneration(), 3);
 
     }
@@ -56,6 +59,6 @@ public class Main
     {
         logger.info("This mod has been created by Aust. Enjoy working for that sword?");
 
-        GameRegistry.addSmelting(voidOre, new ItemStack(voidResin, 1), 10.0f);
+        new CustomRecipe(CustomRecipe.RecipeType.Furnace,voidOre, voidResin, 1, 10.0f);
     }
 }

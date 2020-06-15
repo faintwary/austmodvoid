@@ -1,25 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    
-    "pattern": 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients":
     [
-        "EEE",
-        "EGE",
-        "EEE"
-    ],
-    
-    "key": 
-    {   
-        "E": 
         {
             "item": "austmodvoid:void_resin"
         },
-        
-        "G": 
+
+        {
+            "item": "austmodvoid:void_resin"
+        },
+
+        {
+            "item": "austmodvoid:void_resin"
+        },
+
         {
             "item": "minecraft:iron_ingot"
         }
-    },
+    ],
     
     "result": 
     {

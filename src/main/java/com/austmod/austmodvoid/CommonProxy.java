@@ -18,6 +18,7 @@ public class CommonProxy {
 		registerRender(Main.austroneSword);
 		registerRender(Main.voidResin);
 		registerRender(Main.austroneIngot);
+		registerRender(Main.voidEssence);
 		registerRender(Item.getItemFromBlock(Main.voidOre));
 	}
 	
@@ -30,6 +31,7 @@ public class CommonProxy {
 		event.getRegistry().registerAll(Main.austroneSword);
 		event.getRegistry().registerAll(Main.voidResin);
 		event.getRegistry().registerAll(Main.austroneIngot);
+		event.getRegistry().registerAll(Main.voidEssence);
 	}
 	
 	@SubscribeEvent
