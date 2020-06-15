@@ -10,8 +10,15 @@ This mod is the core for all AustMods. AustMods are mods designed solely by Aust
 ### Materials
  - Austrone: <br>
    Not found naturally. Must be crafted. <br>
-   Used to make Austrone Sword.
+   Crafted from an iron ingot and 3 Void Resin. <br>
+   
+ - Void Infused Stone: <br>
+   Found below Y level 5.
+   3 blocks per chunk.
+   Must be mined with a Diamond Pickaxe or higher.
+   
+ - Void Essence: <br>
+   Created from smelting Void Infused Stone.
    
  - Void Resin: <br>
-   Crafted from obsidian, ender pearls, and gunpowder. <br> 
-   Used to make Austrone.
+   Crafted from gunpowder and Void Essence. <br>
