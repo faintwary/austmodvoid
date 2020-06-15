@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "austmodcore:items/void_resin"
+		"layer0": "austmodvoid:items/austrone_sword"
 	}
 }

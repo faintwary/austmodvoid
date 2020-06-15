@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients":
+    [
+        {
+            "item": "austmodvoid:void_resin"
+        },
+
+        {
+            "item": "austmodvoid:void_resin"
+        },
+
+        {
+            "item": "austmodvoid:void_resin"
+        },
+
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    
+    "result": 
+    {
+    	"item": "austmodvoid:austrone_ingot",
+    	"count": 1
+    }
+}			

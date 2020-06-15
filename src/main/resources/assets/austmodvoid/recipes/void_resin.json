@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients":
+    [
+        {
+            "item": "austmodvoid:void_essence"
+        },
+
+        {
+            "item": "minecraft:gunpowder"
+        }
+    ],
+    
+    "result": 
+    {
+    	"item": "austmodvoid:void_resin",
+    	"count": 1
+    }
+}			
