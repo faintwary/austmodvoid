@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": 
+    [
+        "QAQ",
+        "QAQ",
+        " S "
+    ],
+    
+    "key": 
+    {   
+        "A": 
+        {
+            "item": "austmodvoid:austrone_ingot"
+        },
+        
+        "Q": 
+        {
+            "item": "minecraft:quartz"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result": 
+    {
+    	"item": "austmodvoid:austrone_sword",
+    	"count": 1
+    }
+}			
