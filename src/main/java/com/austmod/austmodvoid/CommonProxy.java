@@ -20,6 +20,9 @@ public class CommonProxy {
 		registerRender(Main.austroneIngot);
 		registerRender(Main.voidEssence);
 		registerRender(Item.getItemFromBlock(Main.voidOre));
+		registerRender(Main.austronePickaxe);
+		registerRender(Main.austroneAxe);
+		registerRender(Main.austroneSpade);
 	}
 	
 	private static void registerRender(Item item) {
@@ -32,15 +35,18 @@ public class CommonProxy {
 		event.getRegistry().registerAll(Main.voidResin);
 		event.getRegistry().registerAll(Main.austroneIngot);
 		event.getRegistry().registerAll(Main.voidEssence);
+		event.getRegistry().registerAll(Main.austronePickaxe);
+		event.getRegistry().registerAll(Main.austroneAxe);
+		event.getRegistry().registerAll(Main.austroneSpade);
 	}
 	
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
-	  event.getRegistry().registerAll(Main.voidOre);
+		event.getRegistry().registerAll(Main.voidOre);
 	}
 	
 	@SubscribeEvent
 	public static void registerItemBlocks(RegistryEvent.Register<Item> event) {
-	  event.getRegistry().registerAll(new ItemBlock(Main.voidOre).setRegistryName(Main.voidOre.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(Main.voidOre).setRegistryName(Main.voidOre.getRegistryName()));
 	}
 }
