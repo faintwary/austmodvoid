@@ -17,7 +17,7 @@ import org.apache.logging.log4j.Logger;
 public class Main
 {
     public static final String MODID = "austmodvoid";
-    public static final String VERSION = "0.3.0";
+    public static final String VERSION = "0.3.1";
     public static final String NAME = "AustMod Void";
 
     public static Logger logger;
@@ -45,6 +45,8 @@ public class Main
 
         austroneIngot = new CustomMaterial("austrone_ingot");
 
+        austrone.setRepairItem(new ItemStack(austroneIngot, 1));
+
         voidOre = new CustomBlock("void_ore", Material.ROCK, "pickaxe", 3, 55.5f);
 
         voidEssence = new CustomMaterial("void_essence");
@@ -63,6 +65,6 @@ public class Main
     {
         logger.info("This mod has been created by Aust. Enjoy working for that sword?");
 
-        new CustomRecipe(CustomRecipe.RecipeType.Furnace,voidOre, voidEssence, 1, 10.0f);
+        new CustomRecipe(CustomRecipe.RecipeType.Furnace,voidOre, voidEssence, 1, 30.0f);
     }
 }
