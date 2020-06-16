@@ -45,6 +45,8 @@ public class Main
 
         austroneIngot = new CustomMaterial("austrone_ingot");
 
+        austrone.setRepairItem(new ItemStack(austroneIngot, 1));
+
         voidOre = new CustomBlock("void_ore", Material.ROCK, "pickaxe", 3, 55.5f);
 
         voidEssence = new CustomMaterial("void_essence");
