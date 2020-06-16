@@ -3,8 +3,8 @@
     
     "pattern": 
     [
-        "AAA",
-        "QSQ",
+        "QAQ",
+        " S ",
         " S "
     ],
     
@@ -28,7 +28,7 @@
     
     "result": 
     {
-    	"item": "austmodvoid:austrone_pickaxe",
+    	"item": "austmodvoid:austrone_shovel",
     	"count": 1
     }
 }			

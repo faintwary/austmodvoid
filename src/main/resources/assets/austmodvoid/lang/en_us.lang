@@ -2,5 +2,8 @@ item.austrone_sword.name=Austrone Sword
 item.void_resin.name=Void Resin
 item.austrone_ingot.name=Austrone Ingot
 item.void_essence.name=Void Essence
+item.austrone_pickaxe.name=Austrone Pickaxe
+item.austrone_axe.name=Austrone Axe
+item.austrone_shovel.name=Austrone Shovel
 
 tile.void_ore.name=Void Infused Stone

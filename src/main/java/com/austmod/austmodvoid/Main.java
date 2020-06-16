@@ -17,16 +17,19 @@ import org.apache.logging.log4j.Logger;
 public class Main
 {
     public static final String MODID = "austmodvoid";
-    public static final String VERSION = "0.2.0";
+    public static final String VERSION = "0.3.0";
     public static final String NAME = "AustMod Void";
 
     public static Logger logger;
 
     public static Item.ToolMaterial austrone;
     public static Item austroneSword;
+    public static Item austronePickaxe;
     public static Item voidResin;
     public static Item austroneIngot;
     public static Item voidEssence;
+    public static Item austroneAxe;
+    public static Item austroneSpade;
     public static Block voidOre;
 
     @EventHandler
@@ -42,16 +45,17 @@ public class Main
 
         austroneIngot = new CustomMaterial("austrone_ingot");
 
-        voidOre = new CustomBlock("void_ore", Material.ROCK);
-
-        voidOre.setHarvestLevel("pickaxe", 3);
-
-        voidOre.setHardness(55.0f);
+        voidOre = new CustomBlock("void_ore", Material.ROCK, "pickaxe", 3, 55.5f);
 
         voidEssence = new CustomMaterial("void_essence");
 
-        GameRegistry.registerWorldGenerator(new OreGeneration(), 3);
+        austronePickaxe = new CustomPickaxe(austrone, "austrone_pickaxe");
 
+        austroneAxe = new CustomAxe(austrone, "austrone_axe");
+
+        austroneSpade = new CustomSpade(austrone, "austrone_shovel");
+
+        GameRegistry.registerWorldGenerator(new OreGeneration(), 3);
     }
 
     @EventHandler
@@ -59,6 +63,6 @@ public class Main
     {
         logger.info("This mod has been created by Aust. Enjoy working for that sword?");
 
-        new CustomRecipe(CustomRecipe.RecipeType.Furnace,voidOre, voidResin, 1, 10.0f);
+        new CustomRecipe(CustomRecipe.RecipeType.Furnace,voidOre, voidEssence, 1, 10.0f);
     }
 }

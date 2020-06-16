@@ -7,10 +7,9 @@ public class CustomSword extends ItemSword {
 
 	public CustomSword(ToolMaterial material, String name) {
 		super(material);
-		// TODO Auto-generated constructor stub
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);
-		this.setCreativeTab(CreativeTabs.TOOLS);
+		this.setCreativeTab(CreativeTabs.COMBAT);
 	}
 
 }

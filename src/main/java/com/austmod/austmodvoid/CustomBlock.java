@@ -7,7 +7,7 @@ import net.minecraft.item.ItemBlock;
 
 public class CustomBlock extends Block {
 
-	public CustomBlock(String name, Material material) {
+	public CustomBlock(String name, Material material, String toolClass, int harvestLevel, float hardness) {
 		
 		super(material);
 		this.setRegistryName(name);
