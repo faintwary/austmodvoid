@@ -6,6 +6,15 @@ This mod is void-centered, and adds a handful of new powerful tools and rare mat
 ### Tools
  - Austrone Sword: <br>
    Deals 120 attack damage (60 hearts).
+   
+ - Austrone Pickaxe: <br>
+   Has a mining level of 4 (obsidian).
+   
+ - Austrone Axe: <br>
+   Nothing much to say. It just... cuts down trees really fast.
+   
+ - Austrone Shovel: <br>
+   I think it could be faster.
 
 ### Blocks
 
