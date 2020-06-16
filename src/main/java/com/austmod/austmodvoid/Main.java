@@ -63,6 +63,6 @@ public class Main
     {
         logger.info("This mod has been created by Aust. Enjoy working for that sword?");
 
-        new CustomRecipe(CustomRecipe.RecipeType.Furnace,voidOre, voidEssence, 1, 10.0f);
+        new CustomRecipe(CustomRecipe.RecipeType.Furnace,voidOre, voidEssence, 1, 30.0f);
     }
 }
